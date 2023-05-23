@@ -1,0 +1,41 @@
+.container {
+  background: red;
+  padding: 1rem;
+}
+
+.container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: yellow;
+}
+
+.container > div > p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5rem;
+  height: 5rem;
+  background: green;
+  border: 1px solid black;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.container > button {
+  margin-top: 1rem;
+  background: rgb(255, 255, 163);
+  border: 1px solid yellow;
+  border-radius: 3px;
+  padding: 3px 7px;
+}
+
+.historyContainer > ul {
+  padding-left: 0;
+  list-style: none;
+}
+.historyContainer > ul > li {
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
